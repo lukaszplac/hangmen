@@ -1,0 +1,26 @@
+body {
+    font-family: Cousine;
+    background-color: #000000;
+    margin-top: 50px;
+}
+.row {
+    margin : 10px;
+}
+
+#sentence{
+    font-size: 26px;
+}
+.letter{
+    font-size: 26px;
+    padding-top:7px;
+    background: grey;
+    min-height: 50px;
+    min-width: 50px;
+    float:left;
+    margin:2px;
+    border-radius: 5px;
+}
+.letter:hover{
+    background-color: white;
+    cursor: crosshair;
+}
